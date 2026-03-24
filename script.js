@@ -18,26 +18,26 @@
 
 
 const skills =[
-    {id:1,name:"priyanshu",role:"dev"},
-    {id:2,name:"priyanshu",role:"dev"},
+     {id:1,name:"comunication",role:""},
+    {id:2,name:"problem",role:"solving"},
     {id:3,name:"priyanshu",role:"dev"},
     {id:4,name:"priyanshu",role:"dev"},
-    {id:5,name:"priyanshu",role:"dev"},
+// {id:5,name:"priyanshu",role:"dev"},
 ]
 document.getElementById('skills').innerHTML =
 skills.map(i=>(
     `
-    <div class="sub_div">
+   <div class="sub_div">
     <h1>${i.id}</h1>
-    <p>${i.name}</p>
-    <h2>${i.role}</h2>
+    <h2>${i.name}</h2>
+    <h3>${i.role}</h3>
     </div>
     `
 )).join("");
 
 const projects =[
-    {id:1,name:"priyanshu",role:"dev"},
-    {id:2,name:"priyanshu",role:"dev"},
+    {id:1,name:"Marksheet",role:"Generator"},
+    {id:2,name:"portfolio",role:""},
     {id:3,name:"priyanshu",role:"dev"},
     {id:4,name:"priyanshu",role:"dev"},
     {id:5,name:"priyanshu",role:"dev"},
@@ -47,12 +47,11 @@ projects.map(i=>(
     `
     <div class="sub_div">
     <h1>${i.id}</h1>
-    <p>${i.name}</p>
-    <h2>${i.role}</h2>
+    <h2>${i.name}</h2>
+    <h3>${i.role}</h3>
     </div>
     `
 )).join("");
-
 
 // const data = [
 //     {id:1, name:"priyanshu", role:"dev"},
